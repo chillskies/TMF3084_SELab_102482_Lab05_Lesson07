@@ -44,7 +44,6 @@ class _BottomNavLabState extends State<BottomNavLab> {
     return Scaffold(
       appBar: AppBar(
         title: const Text ('Lab 05 Exercise A'),
-        backgroundColor: Colors.blue,
         foregroundColor: Colors.white,
       ),
       body: screens[currentIndex],
